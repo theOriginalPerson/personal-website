@@ -1,13 +1,25 @@
 ---
-const today = new Date();
+const currentYear = new Date().getFullYear();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} YOUR NAME HERE. All rights reserved.
+	&copy; {currentYear} Jeanine White
+	<small class="byline">🚀 Built by Astro</small>
 </footer>
 <style>
 	footer {
-		padding: 25px;
 		text-align: center;
+		padding-top: 8rem;
+		padding-right: 2rem;
+		padding-bottom: 4rem;
+		padding-left: 2rem;
+	}
+
+	.byline {
+		display: block;
+		margin-top: 1rem;
+		color: var(--t-subdue);
+		font-size: var(--f-d2);
+		text-transform: uppercase;
 	}
 </style>
