@@ -2,11 +2,14 @@
 import MainHead from '../components/MainHead.astro';
 import Footer from '../components/Footer.astro';
 import Nav from '../components/Nav.astro';
+
+const currentYear = new Date().getFullYear();
+const years_xp = currentYear - 2017;
 ---
 
 <html lang="en">
 	<head>
-		<MainHead title="About | Jeanine White" description="About Jeanine White Lorem Ipsum" />
+		<MainHead title="About | Dario Karanovic" description="About Dario Karanovic" />
 		<style>
 			.heroImg {
 				max-height: 24rem;
@@ -32,43 +35,34 @@ import Nav from '../components/Nav.astro';
 	<body>
 		<Nav />
 		<div class="wrapper">
-			<h1>About Jeanine</h1>
+			<h1>About Me</h1>
 			<div class="heroImg">
 				<img
 					width="1400"
 					height="350"
-					src="https://images.unsplash.com/photo-1581977012607-4091712d36f9?auto=format&fit=crop&w=1400&h=350&q=75"
+					src="https://images.unsplash.com/photo-1619410283995-43d9134e7656?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
 				/>
 			</div>
 			<div class="bio wrapper">
-				<p>
-					Cream cheese say cheese stinking bishop. Brie fondue hard cheese bocconcini feta camembert
-					de normandie babybel airedale. Red leicester swiss manchego mascarpone pepper jack
-					airedale fromage frais ricotta. Cheese and biscuits cauliflower cheese boursin.
-				</p>
-				<p>
-					Pepper jack cheesy feet cheese slices. Halloumi port-salut queso caerphilly roquefort
-					cheese slices cheesy feet rubber cheese. Cheese slices smelly cheese pecorino macaroni
-					cheese feta blue castello roquefort edam. Babybel pepper jack airedale cheddar fromage
-					frais manchego.
-				</p>
-				<p>
-					Cauliflower cheese lancashire macaroni cheese. Cheeseburger babybel cheese on toast
-					airedale cauliflower cheese who moved my cheese roquefort paneer. Stinking bishop cheddar
-					taleggio port-salut port-salut stinking bishop cheesy grin babybel. Blue castello feta
-					everyone loves brie.
-				</p>
-				<p>
-					Goat squirty cheese cut the cheese. Cheese and wine cheddar fondue airedale cottage cheese
-					camembert de normandie feta babybel. Rubber cheese melted cheese pecorino port-salut
-					fondue gouda cheese on toast cheesy feet. Feta edam everyone loves cheese strings
-					camembert de normandie.
-				</p>
-				<p>
-					Caerphilly monterey jack goat. Squirty cheese cheesy grin hard cheese cheese strings
-					cheese and biscuits croque monsieur smelly cheese danish fontina. Swiss cheese triangles
-					everyone loves mascarpone cheese on toast who moved my cheese lancashire cheeseburger.
-					Fromage frais fromage frais cheese and biscuits stinking bishop cauliflower cheese.
+				<p>I'm passionate about computers, software and robotics. 
+					For the past {years_xp} years, I've been building various things ranging from mobile to web applications, as well as many algorithms
+					and solutions to problems.<br><br>
+					I have experience writing code in various languages, frameworks and libraries. I would say
+					I am currently most fluent in Python, C and JavaScript (and yes, TypeScript too). The frameworks I have used in the past were Unity
+					and Gatsby. I used Unity to build a VR mobile app, and I used Gatsby to build various full-stack websites.
+					I built this website using Astro's framework, so I'm fairly adept with it too.
+					I also have experience writing my code with React.js and Node.js, as well as the very famous HTML/CSS markup combo.
+					<br><br>
+					My miscellaneous projects and types of software would be using RSLogix 5000 to program 
+					PLCs (Programmable Logic Controllers). Past projects include a 4-way traffic intersection, as well as designing
+					different motors, machines and industrial components to function under certain pretenses and conditions using 
+					ladder and function-block logic routines.<br><br>
+					Not all of my projects are listed in this website, or even my GitHub portfolio, simply because I have completed
+					some of them in private mode or did not connect version control to them.<br><br>
+					I believe the reason I'm most attracted to software and electronics overall is because it's a perfect combination
+					of art and logic. The endless concept of man trying to make something conscious without biologically reproducing
+					it is a mechatronic engineer's ultimate dream.<br><br>
+					Maybe we won't reach that dream - or maybe we will - but I find that concept, and journey, absolutely fascinating, regardless.
 				</p>
 			</div>
 		</div>
