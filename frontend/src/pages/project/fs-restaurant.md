@@ -3,7 +3,7 @@ layout: ../../layouts/project.astro
 title: Full-Stack Website for Restaurant
 client: Self
 publishDate: 2022-04-20 00:00:00
-link: 
+link: https://github.com/theOriginalPerson/restaurant_homepage
 img: https://images.unsplash.com/photo-1505826759037-406b40feb4cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1472&q=80
 description: |
   Created a full-stack website for a fictional restaurant that took in orders and messages from customers.
