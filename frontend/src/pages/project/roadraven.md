@@ -1,10 +1,10 @@
 ---
 layout: ../../layouts/project.astro
-title:
+title: RoadRaven
 client: Self
 publishDate: 2022-11-05 00:00:00
 link: https://roadraven.ca
-img: ../../../../../public/assets/roadraven_landing.png
+img: https://images.unsplash.com/photo-1643686978109-499f1e9d4bd1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80
 description: |
   Currently developing a ML & CV mobile application that tracks user's dashcams in an attempt to build a better Google Street View.
 tags:
