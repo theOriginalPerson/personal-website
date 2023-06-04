@@ -5,6 +5,7 @@ import Nav from '../components/Nav.astro';
 import Footer from '../components/Footer.astro';
 import PortfolioPreview from '../components/PortfolioPreview.astro';
 import type { Project } from '../types';
+import memoji from "../../public/assets/memoji.png"
 
 // Data Fetching: List all Markdown posts in the repo.
 const projects = await Astro.glob<Project>('./project/**/*.md');
@@ -211,8 +212,9 @@ const years_xp = currentYear - 2017;
 			<div class="gradient2"></div>
 			<div class="overlay">
 				<h1 class="title">
-					<small class="subtitle">The personal site of</small>Dario Karanovic <img style="width: 10%" src="https://sdk.bitmoji.com/render/panel/20048676-376131770_111-s5-v1.png?transparent=1&palette=1&scale=1" />
+					<small class="subtitle">The personal site of</small>Dario Karanovic
 				</h1>
+				<img style="width: 200px; position: absolute; margin-left: 650px; margin-bottom: 50px;" src={memoji} />
 				<div class="roles">
 					<span class="role">💻 Computer Engineer <span class="invert">💻 Computer Engineer</span></span>
 					<span class="role">⚙️ Software Engineer <span class="invert">⚙️ Software Engineer</span></span>
