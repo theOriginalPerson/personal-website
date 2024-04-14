@@ -4,7 +4,7 @@ title: Proprietary EdTech Tool & Mini LMS
 client: Self
 publishDate: 2024-04-20 00:00:00
 link: https://evalpal.cloud
-img: '../../public/assets/evalpal.png'
+img: '/assets/evalpal.png'
 description: |
   Architected and developed a proprietary class management tool, no-code assignment builder and a shareable word processor all-in-one.
 tags:
